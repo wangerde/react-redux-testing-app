@@ -1,3 +1,7 @@
+body {
+  background: darkslategrey;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.section {
+  margin: 40px;
+  border: 1px rgb(137, 206, 206) dotted;
+  padding: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding:0.46em 1.6em;
+  border:0.1em solid #000000;
+  font-weight:300;
+  color: lavender;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  background: darkslategray;
+  transition: all 0.5s;
+}
+
+
+.button:hover{
+  text-shadow: 0 0 2em rgba(255,255,255,1);
+  color:#FFFFFF;
+  border-color:#FFFFFF;
 }
