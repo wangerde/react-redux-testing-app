@@ -64,3 +64,13 @@ body {
   color:#FFFFFF;
   border-color:#FFFFFF;
 }
+
+.input {
+  width: 300px;
+  padding: 5px;
+  background: rgb(135, 150, 148);
+  color: #111;
+  outline: none;
+  border: none;
+  margin: 20px;
+}
